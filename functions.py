@@ -1,4 +1,4 @@
-FILE_PATH = r"//web_app1/todos.txt"
+FILE_PATH = r"//Web_app1/todos.txt"
 
 def get_todos(filepath=FILE_PATH): #make the parameter/argument default
     """Read the text file and return the list of todos""" #this is a doc string, used for documentation

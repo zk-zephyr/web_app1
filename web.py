@@ -11,7 +11,7 @@ def add_todo():
 
 
 todos = functions.get_todos()
-st.set_page_config(layout="wide") #makes it span the full page
+#st.set_page_config(layout="wide") #makes it span the full page
 
 st.title("My Todo App")
 st.subheader("This is my todo app")

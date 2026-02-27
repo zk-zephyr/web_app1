@@ -1,4 +1,4 @@
-#to run use: streamlit run .\todo_app\web.py
+#to run use: streamlit run .\web.py
 
 import streamlit as st
 import functions

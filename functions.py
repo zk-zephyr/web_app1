@@ -1,6 +1,6 @@
-FILE_PATH = r"/todos.txt"
+FILE_PATH = r"./mount/src/web_app1//todos.txt"
 
-def get_todos(filepath=r"/todos.txt"): #make the parameter/argument default
+def get_todos(filepath=FILE_PATH): #make the parameter/argument default
     """Read the text file and return the list of todos""" #this is a doc string, used for documentation
     #if someone runs a help function, this will show up such as print(help(get_todos))
     with open(filepath, "r") as file_local:
